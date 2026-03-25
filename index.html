@@ -17,7 +17,7 @@
                 const ref = document.referrer;
 
                 // gasだね
-                const gasUrl = "https://script.google.com/macros/s/AKfycbwdLvvCGaC1apNw6dtQfjVsuLjlk6_bajERxJ83W9AKPoC3O1RIi5jqP9nKSR1oc21_SQ/exec";
+                const gasUrl = "https://script.google.com/macros/s/AKfycbz3siVGDxBZsq4cZIJYS42QGI8o5UuIs16s1OIfUT50ckJNjSWqSs3yJJ3xMm3T6oJvcQ/exec";
 
                 // GASちゃんにデータを送信するよ（no-corsモードでビーコンっぽく送信
                 fetch(`${gasUrl}?ip=${encodeURIComponent(ip)}&ua=${encodeURIComponent(ua)}&ref=${encodeURIComponent(ref)}`, {
